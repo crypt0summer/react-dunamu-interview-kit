@@ -1,0 +1,91 @@
+/* Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Pretendard Variable', sans-serif;
+  background-color: #f9fafb; /* bg-gray-50 */
+  color: #111827; /* text-gray-900 */
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Global layout */
+#root {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+/* Reset */
+img {
+  display: block;
+  max-width: 100%;
+}
+button {
+  cursor: pointer;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+
+/* App layout */
+.app-root {
+  min-height: 100vh;
+  background-color: #f0f2f5;
+}
+
+/* 상단 탭 헤더 */
+.app-header {
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+/* 제목 */
+.app-title {
+  margin: 0;
+}
+
+/* 탭 버튼 래퍼 */
+.app-tabs {
+  margin-top: 15px;
+}
+
+/* 탭 버튼 기본 스타일 */
+.app-tab-button {
+  margin-right: 10px;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #e9ecef;
+  color: #000000;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* 선택된 탭 버튼 */
+.app-tab-button--active {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+/* 아직 구현 안 된 Day placeholder */
+.app-placeholder {
+  padding: 40px;
+  font-size: 24px;
+  text-align: center;
+}
