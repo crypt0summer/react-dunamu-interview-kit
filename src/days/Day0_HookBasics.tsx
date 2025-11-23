@@ -377,6 +377,7 @@ export default function Day0() {
                 <li>접근성 태그에서 사용할 고유 id 생성</li>
                 <li>SSR + CSR 환경 모두에서 동일한 id를 보장</li>
                 <li>React 18 이후로는 직접 문자열로 id를 짓는 것보다 권장</li>
+                <li> <code>&lt;label&gt;</code>과 <code>&lt;input&gt;</code>을 서로 연결해줄 때, 서버와 클라이언트에서 같은 id를 보장해야 할 때</li>
               </ul>
               <pre className="mt-3 bg-gray-900 text-gray-50 text-xs rounded-xl p-3 overflow-x-auto">
                 <code>{codeUseId}</code>
