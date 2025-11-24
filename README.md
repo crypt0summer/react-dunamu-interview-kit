@@ -19,7 +19,7 @@ React 코어 패턴, 커스텀 훅 설계, 비동기 처리, 타입 정의,
 | **0** | Environment & Hook Fundamentals | Vite 세팅, ESLint/Prettier, 기본 Hook(useState/useEffect/useRef) 정리 | [Day0](./src/days/Day0_HookBasics.tsx) |
 | **1** | React Core Rebuild | 검색 입력 처리, 필터링, 즉시 값/디바운스 값 비교 | [Day1](./src/days/Day1_CustomHooks.tsx) |
 | **2** | Async Flow & State Management | API fetch, 로딩/에러 분리, useReducer 기반 액션 관리 | [Day2](./src/days/Day2_Async.tsx) |
-| **3** | Custom Hooks Deep Dive | useDebounce / useThrottle / useLocalStorage 직접 구현 | |
+| **3** | Custom Hooks Deep Dive | useDebounce / useThrottle / useLocalStorage 직접 구현 | [Day3](./src/days/Day3_CustomHooks.tsx) |
 | **4** | TypeScript for React | API Response 모델링, Pick/Omit/Partial 등 유틸 타입 활용 | |
 | **5** | Rendering Optimization | React.memo, useCallback, useMemo, 컴포넌트 구조화 전략 | |
 | **6** | Web3 Integration | MetaMask 연결, Provider/Signer, balance 조회, signMessage | |
