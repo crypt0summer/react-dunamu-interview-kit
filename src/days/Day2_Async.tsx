@@ -1,12 +1,6 @@
 import React, { useEffect, useState, useReducer, useMemo, useCallback } from 'react';
-
 // 타입 정의 (fake store api, 사용하는 필드만 선언)
-interface Product{
-  id: number;
-  title: string;
-  price: number;
-}
-
+import Product from '../interface/Product';
 // 상태 타입
 // Tagged union vs Flag
 type State =
@@ -36,7 +30,7 @@ function productsReducer(state: State, action: Action): State {
 }
 
 
-export default function Day3() {
+export default function Day2() {
     const [state, dispatch] = useReducer(productsReducer, {status: 'loading'}); // 초기 렌더 시 바로 API를 호출하기 때문
     const [searchTerm, setSearchTerm] = useState('');// 검색어
 

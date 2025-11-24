@@ -3,6 +3,7 @@ import { useState, ComponentType } from "react";
 import Day0 from "./days/Day0_HookBasics";
 import Day1 from "./days/Day1_CustomHooks";
 import Day2 from "./days/Day2_Async";
+import Day3 from "./days/Day3_CustomHooks";
 
 type DayKey = 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7;
 
@@ -10,7 +11,7 @@ const dayComponents: Record<DayKey, ComponentType | null> = {
   0: Day0,
   1: Day1,
   2: Day2,
-  3: null,
+  3: Day3,
   4: null,
   5: null,
   6: null,
