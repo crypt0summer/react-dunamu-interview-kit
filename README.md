@@ -21,7 +21,7 @@ React 코어 패턴, 커스텀 훅 설계, 비동기 처리, 타입 정의,
 | **2** | Async Flow & State Management | API fetch, 로딩/에러 분리, useReducer 기반 액션 관리 | [Day2](./src/days/Day2_Async.tsx) |
 | **3** | Custom Hooks Deep Dive | useDebounce / useThrottle / useLocalStorage 직접 구현 | [Day3](./src/days/Day3_CustomHooks.tsx) |
 | **4** | TypeScript for React | API Response 모델링, Pick/Omit/Partial 등 유틸 타입 활용 | [Day4](./src/days/Day4_TypeScript.tsx) |
-| **5** | Rendering Optimization | React.memo, useCallback, useMemo, 컴포넌트 구조화 전략 | |
+| **5** | Rendering Optimization | React.memo, useCallback, useMemo, 컴포넌트 구조화 전략 | [Day5](./src/days/Day5_Performance.tsx) |
 | **6** | Web3 Integration | MetaMask 연결, Provider/Signer, balance 조회, signMessage | |
 | **7** | 40-Minute Mock Interview | 검색 + pagination + skeleton UI + 커스텀 훅 + Web3 통합 문제 | |
 
