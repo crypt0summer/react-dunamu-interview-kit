@@ -6,6 +6,7 @@ import Day2 from "./days/Day2_Async";
 import Day3 from "./days/Day3_CustomHooks";
 import Day4 from "./days/Day4_TypeScript";
 import Day5 from "./days/Day5_Performance";
+import Day6 from "./days/Day6_Web3";
 
 type DayKey = 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7;
 
@@ -16,7 +17,7 @@ const dayComponents: Record<DayKey, ComponentType | null> = {
   3: Day3,
   4: Day4,
   5: Day5,
-  6: null,
+  6: Day6,
   7: null,
 };
 
